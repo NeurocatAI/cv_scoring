@@ -126,7 +126,7 @@ def extract_candidate_data(html):
     markdown += ', '.join(skills) + "\n"
 
     # Добавляем заголовок для оценки кандидата
-    markdown += "\n## Оценка кандидата\n\n"
+    markdown += "\n# Оценка кандидата\n\n"
 
     return markdown.strip()
 
